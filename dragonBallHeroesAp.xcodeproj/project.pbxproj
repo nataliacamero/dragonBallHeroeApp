@@ -11,6 +11,8 @@
 		E11BC4272AC36EED009BA753 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11BC4262AC36EED009BA753 /* ContentView.swift */; };
 		E11BC4292AC36EEE009BA753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11BC4282AC36EEE009BA753 /* Assets.xcassets */; };
 		E11BC42C2AC36EEE009BA753 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11BC42B2AC36EEE009BA753 /* Preview Assets.xcassets */; };
+		E11BC4382AC37A26009BA753 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11BC4372AC37A26009BA753 /* AppDelegate.swift */; };
+		E11BC43A2AC37A3E009BA753 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11BC4392AC37A3E009BA753 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E11BC4262AC36EED009BA753 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E11BC4282AC36EEE009BA753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E11BC42B2AC36EEE009BA753 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E11BC4372AC37A26009BA753 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E11BC4392AC37A3E009BA753 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,8 @@
 		E11BC4182AC36EED009BA753 = {
 			isa = PBXGroup;
 			children = (
+				E11BC4392AC37A3E009BA753 /* main.swift */,
+				E11BC4372AC37A26009BA753 /* AppDelegate.swift */,
 				E11BC4232AC36EED009BA753 /* dragonBallHeroesAp */,
 				E11BC4222AC36EED009BA753 /* Products */,
 			);
@@ -51,6 +57,11 @@
 		E11BC4232AC36EED009BA753 /* dragonBallHeroesAp */ = {
 			isa = PBXGroup;
 			children = (
+				E11BC4362AC379D9009BA753 /* Tests */,
+				E11BC4352AC379C4009BA753 /* Services */,
+				E11BC4342AC379AF009BA753 /* Contollers */,
+				E11BC4332AC379A6009BA753 /* Views */,
+				E11BC4322AC373F0009BA753 /* Models */,
 				E11BC4242AC36EED009BA753 /* dragonBallHeroesApApp.swift */,
 				E11BC4262AC36EED009BA753 /* ContentView.swift */,
 				E11BC4282AC36EEE009BA753 /* Assets.xcassets */,
@@ -65,6 +76,41 @@
 				E11BC42B2AC36EEE009BA753 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E11BC4322AC373F0009BA753 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E11BC4332AC379A6009BA753 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E11BC4342AC379AF009BA753 /* Contollers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Contollers;
+			sourceTree = "<group>";
+		};
+		E11BC4352AC379C4009BA753 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E11BC4362AC379D9009BA753 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +183,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E11BC4382AC37A26009BA753 /* AppDelegate.swift in Sources */,
 				E11BC4272AC36EED009BA753 /* ContentView.swift in Sources */,
+				E11BC43A2AC37A3E009BA753 /* main.swift in Sources */,
 				E11BC4252AC36EED009BA753 /* dragonBallHeroesApApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
